@@ -907,8 +907,6 @@ a.homebutton:hover .homebutton-mask {
 }
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover,
 #side-bar .collapsible-block-link:hover {
-    color: #b01;
-    color: var(--ct_col_link);
     text-decoration: none;
 }
 
