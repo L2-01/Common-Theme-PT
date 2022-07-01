@@ -791,6 +791,10 @@ a.homebutton:hover .homebutton-mask {
     background: #fff0f0;
     background: var(--ct_bg_sidebar-red);
 }
+
+#side-bar .side-block.resources:nth-of-type(2) {
+   background-color: #e7e5e8;
+}
 #side-bar .side-block.green {
     background: #e5ffe5;
     background: var(--ct_bg_sidebar-green);
@@ -877,10 +881,18 @@ a.homebutton:hover .homebutton-mask {
 }
 
 /* Set social media icon size at once */
+#side-bar .side-block.media {
+    display: flex;
+    justify-content: space-around;
+    width: var(--sidebar-width-on-mobile);
+}
+
 #side-bar .side-links {
     padding-top: 12px;
     text-align: center;
 }
+
+#side-bar .side-block.media img,
 #side-bar .side-links img {
     height: 30px;
     height: var(--ct_dim_sidebar-link-images);
