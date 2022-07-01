@@ -818,7 +818,7 @@ a.homebutton:hover .homebutton-mask {
 }
 #side-bar div.menu-item {
     margin: 2px 0;
-    padding-left: 15px;
+    /*padding-left: 15px;*/
 }
 #side-bar div.menu-item img {
     bottom: -2px;
@@ -854,7 +854,7 @@ a.homebutton:hover .homebutton-mask {
     padding: 0 5px 0;
 }
 #side-bar .collapsible-block-link {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     font-weight: bold;
     text-align: left;
 }
@@ -948,12 +948,12 @@ a.homebutton:hover .homebutton-mask {
 }
 #side-bar .collapsible-block-folded .collapsible-block-link::before,
 #side-bar .colmod-link-top a:first-child::before {
-    content: "+";
+    /*ntent: "+";*/
     background-image: var(--ct_bg_sidebar-expand);
 }
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link::before,
 #side-bar .colmod-link-top a:last-child::before {
-    content: "-";
+    /*content: "-";*/
     background-image: var(--ct_bg_sidebar-collapse);
 }
 #side-bar .menu-item.default p::before {
